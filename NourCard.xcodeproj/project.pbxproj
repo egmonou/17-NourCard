@@ -11,6 +11,8 @@
 		C3E63CC62C15A61B00099DA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E63CC52C15A61B00099DA8 /* ContentView.swift */; };
 		C3E63CC82C15A61D00099DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E63CC72C15A61D00099DA8 /* Assets.xcassets */; };
 		C3E63CCB2C15A61D00099DA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E63CCA2C15A61D00099DA8 /* Preview Assets.xcassets */; };
+		C3E63CD32C15ABC300099DA8 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3E63CD22C15ABC300099DA8 /* Pacifico-Regular.ttf */; };
+		C3E63CD62C15D07400099DA8 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E63CD52C15D07400099DA8 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		C3E63CC52C15A61B00099DA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3E63CC72C15A61D00099DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E63CCA2C15A61D00099DA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3E63CD22C15ABC300099DA8 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		C3E63CD42C15AD3400099DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C3E63CD52C15D07400099DA8 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,7 @@
 		C3E63CB72C15A61A00099DA8 = {
 			isa = PBXGroup;
 			children = (
+				C3E63CD12C15ABA000099DA8 /* Fonts */,
 				C3E63CC22C15A61B00099DA8 /* NourCard */,
 				C3E63CC12C15A61B00099DA8 /* Products */,
 			);
@@ -51,8 +57,10 @@
 		C3E63CC22C15A61B00099DA8 /* NourCard */ = {
 			isa = PBXGroup;
 			children = (
+				C3E63CD42C15AD3400099DA8 /* Info.plist */,
 				C3E63CC32C15A61B00099DA8 /* NourCardApp.swift */,
 				C3E63CC52C15A61B00099DA8 /* ContentView.swift */,
+				C3E63CD52C15D07400099DA8 /* InfoView.swift */,
 				C3E63CC72C15A61D00099DA8 /* Assets.xcassets */,
 				C3E63CC92C15A61D00099DA8 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				C3E63CCA2C15A61D00099DA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3E63CD12C15ABA000099DA8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C3E63CD22C15ABC300099DA8 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E63CD32C15ABC300099DA8 /* Pacifico-Regular.ttf in Resources */,
 				C3E63CCB2C15A61D00099DA8 /* Preview Assets.xcassets in Resources */,
 				C3E63CC82C15A61D00099DA8 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3E63CC62C15A61B00099DA8 /* ContentView.swift in Sources */,
+				C3E63CD62C15D07400099DA8 /* InfoView.swift in Sources */,
 				C3E63CC42C15A61B00099DA8 /* NourCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +293,7 @@
 				DEVELOPMENT_TEAM = 88SW66SMBD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NourCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +323,7 @@
 				DEVELOPMENT_TEAM = 88SW66SMBD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NourCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
